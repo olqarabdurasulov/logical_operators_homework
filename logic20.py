@@ -9,6 +9,6 @@ def main(n):
         bool: answer
     """
 
-    return n // 10 == 1 or n // 100 == 1 or n // 1000 == 1 or n // 10000 == 1
+    return n // 10000 == 1
 print (main(1100))
-print (main(200))
+print (main(10011))
