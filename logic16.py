@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return 9999 < a and a < 100000
+    return a > 9999 and a < 100000 and type(a) == int
+print(main(10087))
+print(main(1008))
+
