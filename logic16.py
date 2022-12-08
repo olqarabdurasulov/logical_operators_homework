@@ -6,7 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a > 9999 and a < 100000 and type(a) == int
-print(main(10087))
-print(main(1008))
+    return (a > 9999 and a < 100000) or (a > -100000 and a < -9999)
+print(main(-15234))
+print(main(763))
 
