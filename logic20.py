@@ -14,26 +14,26 @@ def main(n):
     x1 =n % 10
     n //= 10
     count_of_1 += x1 == 1
-    count_of_0 += x1 == 0 and n >= 1
+    count_of_0 += x1 == 0 and n != 0
 
     x2 =n % 10
     n //= 10
     count_of_1 += x2 == 1
-    count_of_0 += x2 == 0 and n >= 1
+    count_of_0 += x2 == 0 and n != 0
 
     x3 =n % 10
     n //= 10
     count_of_1 += x3 == 1
-    count_of_0 += x3 == 0 and n >= 1
+    count_of_0 += x3 == 0 and n != 0
 
     x4 =n % 10
     n //= 10
     count_of_1 += x4 == 1
-    count_of_0 += x4 == 0 and n >= 1
+    count_of_0 += x4 == 0 and n != 0
 
     x5 =n % 10
     n //= 10
     count_of_1 += x5 == 1
-    count_of_0 += x5 == 0 and n >= 1
+    count_of_0 += x5 == 0 and n != 0
 
     return count_of_1 > count_of_0
